@@ -22,4 +22,8 @@ public class Human {
     public String toString(){
         return name +" "+nationality+" "+age+" "+gender;
     }
+
+    static {
+        System.out.println("This is a static block, it runs before the constructor");
+    }
 }
